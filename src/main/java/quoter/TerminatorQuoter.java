@@ -1,5 +1,6 @@
 package quoter;
 
+@Profiling
 public class TerminatorQuoter implements Quoter {
 private String message;
 @InjectRandomInt(min = 2, max = 7)
