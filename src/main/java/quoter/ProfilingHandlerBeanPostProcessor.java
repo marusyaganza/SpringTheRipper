@@ -20,7 +20,7 @@ public class ProfilingHandlerBeanPostProcessor implements BeanPostProcessor {
     public ProfilingHandlerBeanPostProcessor() throws Exception {
         MBeanServer platformMBeanServer = ManagementFactory.getPlatformMBeanServer();
         //It does not work!
-//        platformMBeanServer.registerMBean(controller, new ObjectName("profiling", "name", "controller"));
+     //platformMBeanServer.registerMBean(controller, new ObjectName("profiling", "name", "controller"));
     }
 
     @Override

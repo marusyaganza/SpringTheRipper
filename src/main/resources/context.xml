@@ -5,6 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
     <context:annotation-config/>
     <bean class="quoter.ProfilingHandlerBeanPostProcessor"/>
+    <bean class="quoter.PostProxyListener"  />
     <bean class="quoter.TerminatorQuoter" id="terminatorQuoter">
         <property name="message" value="I'll be back"></property>
     </bean>
